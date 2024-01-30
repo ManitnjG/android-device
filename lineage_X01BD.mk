@@ -18,9 +18,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_X01BD
 PRODUCT_DEVICE := X01BD
-PRODUCT_BRAND := asus
+PRODUCT_BRAND := Asus
 PRODUCT_MODEL := Zenfone Max Pro M2
-PRODUCT_MANUFACTURER := asus
+PRODUCT_MANUFACTURER := Asus
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
