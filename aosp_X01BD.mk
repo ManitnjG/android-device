@@ -9,15 +9,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Project-Elixir stuff
+# Inherit some common PixelOS stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Elixir Officials
-ELIXIR_BUILD_TYPE := OFFICIAL
-TARGET_BOOT_ANIMATION_RES := 1080
+# Build Flags
+TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_INCLUDE_STOCK_ACORE := false
