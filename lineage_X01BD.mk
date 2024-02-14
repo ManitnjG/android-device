@@ -29,7 +29,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-asus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=ASUS_X01BD \
-    PRODUCT_NAME=WW_X01BD
+    PRODUCT_NAME=WW_X01BD \
+    PRIVATE_BUILD_DESC="panther-user 14 UQ1A.240205.002 11224170 release-keys"
 
 # Build fingerprint
-BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"
+BUILD_FINGERPRINT := "google/panther/panther:14/UQ1A.240205.002/11224170:user/release-keys"
