@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X01BD.mk
+    $(LOCAL_DIR)/superior_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_X01BD-userdebug
+    superior_X01BD-userdebug
