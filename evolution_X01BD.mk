@@ -10,23 +10,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common PixelOS stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-# Viper
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Build Flags
-TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_MINI_GAPPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_CALL_RECORDING_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_X01BD
+PRODUCT_NAME := evolution_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := Asus
 PRODUCT_MODEL := Zenfone Max Pro M2
