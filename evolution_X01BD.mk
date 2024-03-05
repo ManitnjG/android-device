@@ -19,8 +19,6 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_MINI_GAPPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_CALL_RECORDING_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
