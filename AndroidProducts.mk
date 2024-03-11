@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_X01BD.mk
+    $(LOCAL_DIR)/rising_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_X01BD-userdebug \
-    evolution_X01BD-user \
-    evolution_X01BD-eng
+    rising_X01BD-userdebug \
+    rising_X01BD-user \
+    rising_X01BD-eng
