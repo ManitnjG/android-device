@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common PixelOS stuff
-$(call inherit-product, vendor/rising/config/rising.mk)
+$(call inherit-product, vendor/lineage/config/common-full-phone.mk)
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -22,7 +22,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_CALL_RECORDING_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := rising_X01BD
+PRODUCT_NAME := lineage_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := Asus
 PRODUCT_MODEL := Zenfone Max Pro M2
