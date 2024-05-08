@@ -22,7 +22,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_CALL_RECORDING_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_X01BD
+PRODUCT_NAME := lineage_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := Asus
 PRODUCT_MODEL := Zenfone Max Pro M2
